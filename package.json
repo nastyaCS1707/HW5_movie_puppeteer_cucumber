@@ -1,0 +1,19 @@
+{
+  "name": "qamid-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand",
+    "cucumber": "cucumber-js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "expect-puppeteer": "^11.0.0",
+    "jest": "^30.5.2",
+    "jest-puppeteer": "^11.0.0",
+    "puppeteer": "^24.43.1"
+  }
+}
